@@ -1,0 +1,11 @@
+{
+	allPersons {
+	    id
+		name
+		age
+	}
+	person(id: 3) {
+		occupations
+	}
+
+}

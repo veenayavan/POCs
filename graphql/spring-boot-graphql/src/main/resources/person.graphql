@@ -1,0 +1,18 @@
+schema {
+query: Query
+}
+
+scalar Long
+
+type Query {
+allPersons: [Person]
+person(id: Long): Person
+}
+
+type Person {
+id: Long
+name: String
+gender: String
+age: Long
+occupations: [String]
+}
